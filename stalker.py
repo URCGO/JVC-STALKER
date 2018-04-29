@@ -17,7 +17,7 @@ postList = soup.findAll("a", { "class" : "lien-jv topic-title" });
 
 print(len(postList))
 for i in range(len(postList)):
-	print("["+auteur+"]"+ " : " + postList[i].text)
+	print("["+auteur+"] : " + postList[i].text)
  
 
 
